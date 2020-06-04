@@ -3,6 +3,8 @@ import shutil
 
 #It is very important to add "/" at the end of the path.
 #For exemple : /Users/user/Desktop/folder_name/
+# If you want you can add more file extensions, just don't forget to add a name to "folder_name" array and change the range in both loops
+# 13 names in folder_name = range(0,13) ; 14 names in folder_name = range(0,14))
 
 path = input("Path:")
 names = os.listdir(path)
